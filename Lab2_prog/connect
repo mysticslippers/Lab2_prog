@@ -1,0 +1,3 @@
+javac -d build -cp "src:build/libs/Pokemon.jar" src/Battleground.java
+cd build
+jar -cfm Lab2_prog.jar MANIFEST.mf Battleground.class Pokemons/*.class Attacks/**/*.class
