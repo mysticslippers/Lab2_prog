@@ -15,6 +15,9 @@ project(':lab2'){
     compileJava.options.encoding = 'UTF-8'
     compileTestJava.options.encoding = 'UTF-8'
     mainClassName = 'me.ifmo.Lab2'
+    dependencies {
+        implementation fileTree(dir: 'libs', include: ['Pokemon.jar'])
+    }
     jar {
         manifest {
             attributes(
