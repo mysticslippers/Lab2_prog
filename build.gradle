@@ -14,14 +14,14 @@ project(':lab2'){
     apply plugin: 'application'
     compileJava.options.encoding = 'UTF-8'
     compileTestJava.options.encoding = 'UTF-8'
-    mainClassName = 'me.ifmo.Lab2'
+    mainClassName = 'me.ifmo.Battleground'
     dependencies {
-        implementation fileTree(dir: 'libs', include: ['Pokemon.jar'])
+        implementation fileTree(dir: 'C:\\Users\\zavoe\\IdeaProjects\\Lab2_prog\\libs', include: ['Pokemon.jar'])
     }
     jar {
         manifest {
             attributes(
-                    'Main-Class': 'me.ifmo.Lab2'
+                    'Main-Class': 'me.ifmo.Battleground'
             )
         }
         from {
