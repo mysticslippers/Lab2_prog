@@ -1,3 +1,5 @@
+//Вариант №67123
+
 package me.ifmo;
 
 import me.ifmo.pokemons.*;
